@@ -47,9 +47,11 @@ module.exports = (eleventyConfig) => {
 Get your scss on in templates with a shortcode (this example uses handlebars):
 
 ```
-{{#javascript}}  
-  console.log("hello world!");
-{{/javascript}}`
+{{# scss}}  
+  body {
+    color: red;
+  }
+{{/ scss}}`
 ```
 
 ## Todo: 
