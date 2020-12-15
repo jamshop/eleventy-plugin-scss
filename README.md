@@ -51,7 +51,7 @@ Get your scss on in templates with a shortcode (this example uses handlebars):
   body {
     background: lighten(red, 40);
   }
-{{/scss}}`
+{{/scss}}
 ```
 
 ## Todo: 
